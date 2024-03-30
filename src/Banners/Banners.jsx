@@ -1,29 +1,93 @@
 const Banners = () => {
   return (
-    <div>
-      <div className="mt-4">
-        <div className="p-4 md:p-8 flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-8 md:mb-0 md:max-w-md mr-0 md:mr-8">
-            <h1 className="text-2xl text-white md:text-4xl font-bold mb-4">
-              Smile Confidently, Smile Beautifully
-            </h1>
-            <p className="text-red-500 hover:text-green-400">
-              Welcome to Anika Dental Point, where we believe that a confident
-              smile is the key to a beautiful life. Our commitment to your oral
-              health goes beyond traditional dentistry, as we embark on a
-              journey to transform your smile into a masterpiece of confidence
-              and beauty.
-            </p>
-          
-          </div>
-          <div className="flex-shrink-0">
+    <div className="mt-4">
+      <div className="p-4 md:p-8">
+        <h1 className="text-2xl text-[#000000] md:text-4xl font-bold mb-4">
+          Sports
+        </h1>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mr-4 ml-4">
+          {/* Image 1 */}
+          <div className="flex flex-col">
             <img
-              src="https://i.ibb.co/dfRf3qs/IMG-20240105-160708920.jpgs"
-              alt="Banner Image"
-              className="w-full max-w-md lg:max-w-lg xl:max-w-xl h-auto max-h-64 lg:max-h-80 xl:max-h-96"
+              src="https://i.ibb.co/jy2RyZk/dc33760174d3f67737f6e318d0f118ff.jpg"
+              className="w-60 h-72"
+              alt=""
             />
+            <div className="mt-2">
+              <h1 className="text-[#000000]">Sacramento River Cats</h1>
+              <div className="flex gap-8">
+                <h6 className="text-[#525965]">Total events</h6>
+                <h6 className="text-[#525965]">Sport</h6>
+              </div>
+              <div className="flex gap-8">
+                <h6 className="text-[#000000]">48 Events</h6>
+                <h6 className="text-[#000000] ml-2">Baseball</h6>
+              </div>
+            </div>
+          </div>
+          {/* Image 2 */}
+          <div className="flex flex-col">
+            <img
+              src="https://i.ibb.co/7Y0dTqT/76e2b366b2456bbd169b0c3c9525252c.jpg"
+              className="w-60 h-72"
+              alt=""
+            />
+            <div className="mt-2">
+              <h1 className="text-[#000000]">Las Vegas Aviator</h1>
+              <div className="flex gap-8">
+                <h6 className="text-[#525965]">Total events</h6>
+                <h6 className="text-[#525965]">Sport</h6>
+              </div>
+              <div className="flex gap-8">
+                <h6 className="text-[#000000]">28 Events</h6>
+                <h6 className="text-[#000000] ml-2">Baseball</h6>
+              </div>
+            </div>
+          </div>
+          {/* Image 3 */}
+          <div className="flex flex-col">
+            <img
+              src="https://i.ibb.co/Xp3nzpH/b2fcf21c696811f745109da24a740d73.jpg"
+              className="w-60 h-72"
+              alt=""
+            />
+            <div className="mt-2">
+              <h1 className="text-[#000000]">new jersey devils</h1>
+              <div className="flex gap-8">
+                <h6 className="text-[#525965]">Total events</h6>
+                <h6 className="text-[#525965]">Sport</h6>
+              </div>
+              <div className="flex gap-8">
+                <h6 className="text-[#000000]">15 Events</h6>
+                <h6 className="text-[#000000] ml-2">ice hockey</h6>
+              </div>
+            </div>
+          </div>
+          {/* Image 4 */}
+          <div className="flex flex-col">
+            <img
+              src="https://i.ibb.co/7Y0dTqT/76e2b366b2456bbd169b0c3c9525252c.jpg"
+              className="w-60 h-72"
+              alt=""
+            />
+            <div className="mt-2">
+              <h1 className="text-[#000000]">Las Vegas Aviators</h1>
+              <div className="flex gap-8">
+                <h6 className="text-[#525965]">Total events</h6>
+                <h6 className="text-[#525965]">Sport</h6>
+              </div>
+              <div className="flex gap-8">
+                <h6 className="text-[#000000]">28 Events</h6>
+                <h6 className="text-[#000000] ml-2">Baseball</h6>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <button className="rounded p-2 text-white bg-[#2C9CF0]">
+          See More
+        </button>
       </div>
     </div>
   );
